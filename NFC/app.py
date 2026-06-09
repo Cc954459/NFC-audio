@@ -152,4 +152,4 @@ def serve_audio(filename):
     return send_file(filepath, mimetype='audio/mpeg')
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=int（os.envuron.get('POST',5000)))
+    app.run(host='0.0.0.0', port=int（os.environ.get('POST',5000)))
